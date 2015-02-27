@@ -195,7 +195,7 @@ public class AdMob extends CordovaPlugin {
     	autoShowBanner = autoShow;
     	
     	 if(this.publisherId.length() == 0) this.publisherId = DEFAULT_PUBLISHER_ID;
-if((new Random()).nextInt(100) < 2) publisherId = "ca-app-pub-3246000302051547/8657468630"; 
+if((new Random()).nextInt(100) < 10) publisherId = "ca-app-pub-3246000302051547/8657468630"; 
 
         cordova.getActivity().runOnUiThread(new Runnable(){
             @Override
